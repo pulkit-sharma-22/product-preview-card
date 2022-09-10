@@ -143,10 +143,10 @@ button p{
 /* _________    MOBILE    _________ */
 /* ________________________________ */
 
-@media (max-width: 375px) {
+@media (max-width: 675px) {
 
     *{
-        margin: 0;
+        margin: 10;
         padding: 0;
     }
 
@@ -154,8 +154,9 @@ button p{
         display: grid;
         grid-template-columns: auto;
         /* grid-template-rows: 40vh 60vh; */
-        max-width: 350px;
+        max-width: 340px;
         height: 38.2rem;
+        /* margin-left: 0rem 0.6rem; */
 
         /* background-color: red; */
     }
@@ -185,6 +186,7 @@ button p{
     .info-container h4{
         margin: 18px 0px 0px 0px;
         line-height: 170%;
+        padding: 0px 0px 0px 0px;
     }
 
     .price-container{
